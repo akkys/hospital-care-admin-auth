@@ -1,0 +1,351 @@
+.App {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.home-container {
+  margin: 8% 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.home-container i {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .home-container {
+    margin: 10% 0;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+
+  .card-container .card-body .card-title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .image-container-reg, .image-container{
+    display: flexbox;
+  }
+  
+  .doc-card-container .doc-card-img {
+    width: 110%;
+    height: 90%;
+    margin-left: 20%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .image-container-reg, .image-container{
+    display: none;
+  }
+
+  #login-container .col-md-5{
+    width: 75%;
+    margin: auto;
+  }
+
+  #login-container .col-md-4{
+    width: 75%;
+    margin: auto;
+  }
+
+  #login-container .col-md-5 h3{
+    font-size: 1.5rem;
+  }
+
+  #login-container .col-md-4 h3{
+    font-size: 1.5rem;
+  }
+
+  .doc-card-container .doc-card-img {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .modal-container .card-img{
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home-container {
+    margin: 15% 0;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home-container {
+    margin: 17% 0;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+}
+
+.table td {
+  font-size: 14px;
+}
+
+.table th{
+  font-size: 15px;
+}
+
+.btn-div{
+position: fixed;
+top: 13%;
+right: 2%;
+z-index: 2;
+}
+
+.nav-link{
+  font-size: 15px;
+}
+
+.nav-link:focus{
+  color: #007bff !important;
+}
+
+.dropdown-toggle {
+  color: rgba(0,0,0,.5) !important;
+  border-radius: 0 !important;
+}
+
+.dropdown-toggle:focus{
+  color: #0066ff !important;
+}
+
+
+.dropdown-item:active{
+  color: #0066ff !important;
+  background-color: white !important;
+}
+
+.dropdown-item{
+  font-size: 13px;
+  padding: 0.4rem 1.5rem !important;
+}
+
+.dropdown-menu{
+  border: 1px solid rgba(197, 195, 195, 0.5);
+  border-radius: 0% !important;
+}
+
+.home-sub-container h3 {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.modal-content{
+border-radius: 0 !important;
+}
+
+.modal-container  .input-group-text{
+border: none !important;
+background-color: white !important;
+border-bottom: 1px solid #ced4da !important;
+}
+
+.modal-container {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.modal-container label{
+  font-size: 14px;
+  color: #6c757d;
+  padding-left: 4%;
+}
+
+input, .input-group-text{
+  border-radius: 0 !important;
+} 
+
+.modal-container input{
+  font-size: 13px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #ced4da !important;
+}
+
+.modal-container select{
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ced4da !important;
+  padding: 4px 2px;
+}
+
+.modal-container textarea{
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ced4da !important;
+}
+
+.btn{
+  border-radius: 0% !important;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+ input,select,textarea:focus{
+  outline: none;
+  box-shadow: none !important;
+  border-color: rgb(184, 183, 183) !important;
+}
+
+.appt-modal label {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.appt-modal span {
+  font-size: 14px;
+  margin-left: 1%;
+  font-weight: 580;
+  /* color: rgb(138, 138, 138); */
+}
+
+.navbar-container {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.navbar-container h3 {
+  font-weight: 600;
+}
+
+
+.image-container {
+  height: 200px;
+  position: relative;
+  background-color: #28a745;
+  /* border: 3px solid green; */
+}
+
+.image-container h1 {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.image-container-reg {
+  height: 360px;
+  position: relative;
+  background-color: #007bff;
+}
+
+.image-container-reg h1 {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.alert{
+  border-radius: 0 !important;
+}
+
+.card{
+  border-radius: 0% !important;
+}
+
+.card-body h6{
+  font-size: 14px;
+}
+.doc-card-container span{
+  color: #6c757d;
+  font-size: 13px;
+}
+
+.doc-card-container .col-md-9 .card-body{
+  padding: 4% 7%;
+}
+
+.doc-card-container .card-body{
+  padding: 2% 7%;
+}
+
+.doc-card-img{
+  margin: 0 30%;
+  height:120px;
+}
+.modal-container .card-img {
+  margin: 5% 0;
+  height: 300px;
+}
+.card-img-top {
+  padding: 2% 25%;
+}
+.card-container .card-body {
+  padding: 0.7rem;
+}
+
+.card-container .card-body h6 span {
+  font-weight: 600;
+}
+
+.card-container i {
+  cursor: pointer;
+}
+
+.card-container h4 {
+  font-weight: 500;
+}
+
+.card-container h5 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.card-container h6 {
+  font-weight: 500;
+  color: rgb(95, 94, 94);
+}
+
+.card-container p {
+  font-size: 16px;
+  color: rgb(95, 94, 94);
+  font-weight: 500;
+}
+
+.ward-container h4 {
+  font-weight: 500;
+}
+
+.ward-container i {
+  cursor: pointer;
+}
+
+.ward-container h5 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.ward-container h6 {
+  font-weight: 500;
+  color: rgb(95, 94, 94);
+}
+
+.ward-container p {
+  font-size: 16px;
+  color: rgb(95, 94, 94);
+  font-weight: 500;
+}
+
+.scroll-to-top {
+  position: fixed;
+  width: 100%;
+  left: 92%;
+  bottom: 40px;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: rgb(93, 99, 93);
+}
